@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+
+<launch>
+   <arg name="model" default="$(find hector_quadrotor_description)/urdf/quadrotor.gazebo.xacro" />
+
+   <group ns="uav1">
+      <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+        <arg name="name" value="uav1" />
+        <arg name="tf_prefix" value="uav1" />
+        <arg name="model" value="$(arg model)" />
+        <arg name="y" value="0.0" />
+      </include>
+   </group>
+
+   <group ns="uav2">
+     <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+       <arg name="name" value="uav2" />
+       <arg name="tf_prefix" value="uav2" />
+       <arg name="model" value="$(arg model)" />
+       <arg name="y" value="1.0" />
+     </include>
+   </group>
+
+  <group ns="uav3">
+    <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+      <arg name="name" value="uav3" />
+      <arg name="tf_prefix" value="uav3" />
+      <arg name="model" value="$(arg model)" />
+      <arg name="y" value="2.0" />
+    </include>
+  </group>
+
+  <group ns="uav4">
+    <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+      <arg name="name" value="uav4" />
+      <arg name="tf_prefix" value="uav4" />
+      <arg name="model" value="$(arg model)" />
+      <arg name="y" value="3.0" />
+    </include>
+  </group>
+
+   
+<group ns="uav5">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav5" />
+    <arg name="tf_prefix" value="uav5" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="4.0" />
+  </include>
+</group>
+<group ns="uav6">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav6" />
+    <arg name="tf_prefix" value="uav6" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="5.0" />
+  </include>
+</group>
+<group ns="uav7">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav7" />
+    <arg name="tf_prefix" value="uav7" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="6.0" />
+  </include>
+</group>
+<group ns="uav8">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav8" />
+    <arg name="tf_prefix" value="uav8" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="7.0" />
+  </include>
+</group>
+
+   
+<group ns="uav9">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav9" />
+    <arg name="tf_prefix" value="uav9" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="8.0" />
+  </include>
+</group>
+<group ns="uav10">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav10" />
+    <arg name="tf_prefix" value="uav10" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="9.0" />
+  </include>
+</group>
+
+<group ns="uav11">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav11" />
+    <arg name="tf_prefix" value="uav11" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="10.0" />
+  </include>
+</group>
+
+<group ns="uav12">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav12" />
+    <arg name="tf_prefix" value="uav12" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="11.0" />
+  </include>
+</group>
+
+<group ns="uav13">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav13" />
+    <arg name="tf_prefix" value="uav13" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="12.0" />
+  </include>
+</group>
+
+<group ns="uav14">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav14" />
+    <arg name="tf_prefix" value="uav14" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="13.0" />
+  </include>
+</group>
+
+<group ns="uav15">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav15" />
+    <arg name="tf_prefix" value="uav15" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="14.0" />
+  </include>
+</group>
+
+<group ns="uav16">
+  <include file="$(find hector_quadrotor_gazebo)/launch/spawn_quadrotor.launch">
+    <arg name="name" value="uav16" />
+    <arg name="tf_prefix" value="uav16" />
+    <arg name="model" value="$(arg model)" />
+    <arg name="y" value="15.0" />
+  </include>
+</group>
+
+</launch>
+
